@@ -3,7 +3,7 @@ from sklearn.preprocessing import MinMaxScaler, OneHotEncoder
 
 # Load dataset
 df = pd.read_csv(
-    r"C:\Users\Joshen Paul\finalyearproject\finalyearproject\PhiUSIIL_Phishing_URL_Dataset.csv"
+    r"C:\Users\Joshen Paul\finalyearproject\finalyearproject\data\PhiUSIIL_Phishing_URL_Dataset.csv"
 )
 
 # --- Step 1: Drop identifier columns ---
@@ -43,7 +43,7 @@ print(df_normalized.head())
 
 # Save the normalized dataset to CSV
 df_normalized.to_csv(
-    r"C:\Users\Joshen Paul\finalyearproject\finalyearproject\normalized_dataset.csv",
+    r"C:\Users\Joshen Paul\finalyearproject\finalyearproject\data\normalized_dataset.csv",
     index=False
 )
 

@@ -3,7 +3,7 @@ from sklearn.model_selection import train_test_split
 
 # Load the normalized dataset
 df_normalized = pd.read_csv(
-    r"C:\Users\Joshen Paul\finalyearproject\finalyearproject\normalized_dataset.csv"
+    r"C:\Users\Joshen Paul\finalyearproject\finalyearproject\data\normalized_dataset.csv"
 )
 
 # Split into Global Test Set (10%) and Training Pool (90%)
@@ -13,10 +13,10 @@ train_pool, global_test_set = train_test_split(
 
 # Save both sets
 train_pool.to_csv(
-    r"C:\Users\Joshen Paul\finalyearproject\finalyearproject\train_pool.csv", index=False
+    r"C:\Users\Joshen Paul\finalyearproject\finalyearproject\data\train_pool.csv", index=False
 )
 global_test_set.to_csv(
-    r"C:\Users\Joshen Paul\finalyearproject\finalyearproject\global_test_set.csv", index=False
+    r"C:\Users\Joshen Paul\finalyearproject\finalyearproject\data\global_test_set.csv", index=False
 )
 
 print("✅ Global Test Set created and saved.")
