@@ -19,6 +19,6 @@ global_test_set.to_csv(
     r"C:\Users\Joshen Paul\finalyearproject\finalyearproject\data\global_test_set.csv", index=False
 )
 
-print("✅ Global Test Set created and saved.")
+print("Global Test Set created and saved.")
 print("Training Pool shape:", train_pool.shape)
 print("Global Test Set shape:", global_test_set.shape)
