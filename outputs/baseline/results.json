@@ -1,0 +1,35 @@
+{
+  "test_metrics": {
+    "accuracy": 0.999830364715861,
+    "precision": 0.9997034620802135,
+    "recall": 1.0,
+    "f1_score": 0.9998517090531623,
+    "roc_auc": 0.9999996180152106,
+    "test_samples": 23580,
+    "confusion_matrix": [
+      [
+        10091,
+        4
+      ],
+      [
+        0,
+        13485
+      ]
+    ]
+  },
+  "final_train_metrics": {
+    "loss": 9.496697020949796e-05,
+    "accuracy": 0.9999818205833435,
+    "auc": 0.999992847442627
+  },
+  "final_val_metrics": {
+    "loss": 0.0004186301084700972,
+    "accuracy": 0.9999364018440247,
+    "auc": 0.9999504685401917
+  },
+  "training_info": {
+    "epochs_trained": 22,
+    "batch_size": 256,
+    "learning_rate": 0.001
+  }
+}
